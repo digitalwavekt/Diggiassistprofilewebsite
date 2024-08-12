@@ -1044,7 +1044,7 @@ section {
 
 /* Image styling */
 .post-entry img {
-  max-width: 280;
+  width: 380px;
   height: 400px;
   border-radius: 5px;
 }
