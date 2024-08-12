@@ -1037,14 +1037,18 @@ section {
 
 /* Container styling */
 .post-entry {
-  width: 380px; /* Adjust as needed */
+  width: 250px; /* Adjust as needed */
   height: 500px;
 
 }
 
 /* Image styling */
 .post-entry img {
-  width: 380px;
-  height: 400px;
+  width: 250px;
+  height: 250px;
   border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+.post-entry img:hover {
+  transform: scale(1.1); /* Zoom in by 10% */
 }
